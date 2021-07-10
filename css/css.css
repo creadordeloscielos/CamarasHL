@@ -45,9 +45,9 @@ a {
 
 .text-subline {
   position: relative;
-  height: 1px;
+  height: 2px;
   padding: 0;
-  background: #f2f3f8;
+  background: #696b723d;
   border: none;
   margin: 15px auto;
 }
@@ -122,6 +122,10 @@ nav ul {
   color: #2B2C2F;
 }
 
+.contacto textarea {
+  padding: .8rem  1rem !important;
+}
+
 .contacto .form {
   padding-right: 5%;
 }
@@ -155,6 +159,9 @@ nav ul {
 
 .contacto label {
   margin-left: 4px;
+  font-weight: 500;
+  font-size: 14px;
+  margin-bottom: 1px;
 }
 
 .contacto i {
@@ -184,6 +191,22 @@ nav ul {
   background-image: url(../media/1.jpg);
 }
 
+footer {
+  padding-top: 50px;
+}
+
+footer i {
+  margin-right: 5px;
+  font-size: 20px;
+  margin-top: 5px;
+  color: #133057e1;
+}
+
+.copyright {
+  text-align: center;
+  padding: 8px 0px;
+}
+
 @media screen and (max-width: 1000px) {
   .wrapper {
     width: 90%;
@@ -194,11 +217,14 @@ nav ul {
 }
 
 @media screen and (max-width: 767px) {
-  .contacto .dp-flex {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: reverse;
-        -ms-flex-direction: column-reverse;
-            flex-direction: column-reverse;
+  .info {
+    margin-top: 50px;
+  }
+  .info .content-info {
+    margin: 15px 0px;
+  }
+  .info .mt3 {
+    margin-top: .90rem;
   }
   .menu {
     display: block;
@@ -254,11 +280,23 @@ nav ul {
     text-align: center;
     padding: 15px 0px;
   }
+  footer .mtp {
+    margin: 15px auto;
+  }
 }
 
 @media screen and (max-width: 575px) {
+  .contacto {
+    padding-bottom: 40px;
+  }
   .contacto .btn {
     width: 100%;
+  }
+  .info {
+    margin-top: 40px;
+  }
+  .info .mt3 {
+    margin-top: 0rem;
   }
 }
 /*# sourceMappingURL=css.css.map */
