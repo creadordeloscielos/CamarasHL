@@ -1,0 +1,78 @@
+.contacto{
+    padding: 80px 0px;
+    color: #2B2C2F;
+
+
+    .form{
+        padding-right: 5%;
+        }
+
+             .form-control {
+     padding: 1.5rem 1rem;
+    }
+
+    .form-control:focus {
+        color: #495057;
+        background-color: #fff;
+        border-color: #1330578f;
+        outline: 0;
+        box-shadow: 0 0 0 .2rem #007bff00;
+        transition: border-color .5s ease-in-out;
+    }
+
+        .btn{
+            padding: .475rem 1.5rem;
+            font-weight: bold;
+            border: none;
+            background: #133157;
+
+            &:focus{
+                        box-shadow: 0 0 0 .2rem #00000000 !important;
+                }
+            }
+
+                label{
+                    margin-left: 4px;
+                    }
+
+i{
+    margin-right: 15px;
+    font-size: 20px;
+    margin-top: 3px;        
+    color: #133057e1;
+    }
+
+ .title-info{
+
+            h3{
+                      font-size: 22px;
+                }
+      
+            }
+
+                .content-info{
+                    
+                    a{
+                        color: #000;
+                        }
+                    }
+
+                                .txt-info{
+                                    margin-top: 20px;
+                                    
+                                    }
+       
+
+                              
+
+    }    
+
+
+.map{
+    height: 350px;
+    }
+
+
+    .banner {
+    background-image: url(../media/1.jpg);
+}
