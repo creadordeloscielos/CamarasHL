@@ -4,11 +4,15 @@
   margin: 0;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 li {
   list-style: none;
+}
+
+p {
+  font-weight: 300;
 }
 
 a {
@@ -55,7 +59,7 @@ a {
 }
 
 .text-subline::before {
-  content: '';
+  content: "";
   position: absolute;
   top: 0;
   left: 0;
@@ -75,12 +79,17 @@ a {
 .banner h2 {
   color: black;
   font-size: 60px;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-weight: 400;
 }
 
 .marcas {
-  padding: 40px 0px;
+  padding-bottom: 60px;
+}
+
+.marcas p {
+  font-size: 19px;
+  font-weight: 400;
 }
 
 .marcas .title {
@@ -89,6 +98,8 @@ a {
 
 .marcas .title h3 {
   margin-bottom: 15px;
+  font-size: 32px;
+  font-weight: 600;
 }
 
 .marcas .row img {
@@ -103,12 +114,94 @@ a {
   width: 100%;
 }
 
-.valores {
-  margin-top: 50px;
+.nosotros .title h3 {
+  margin-bottom: 15px;
 }
 
-.valores .txt-valores {
-  padding: 14px 20px;
+.valores {
+  background: #f0f0f0;
+  padding: 80px 0px;
+}
+
+.valores .wrapper {
+  -webkit-box-align: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.valores .valor {
+  border: 1px solid #0000001a;
+  width: 29%;
+  border-radius: 5px;
+  padding: 20px 25px;
+  -webkit-box-shadow: 6px 6px 11px -4px #00000030;
+          box-shadow: 6px 6px 11px -4px #00000030;
+  text-align: center;
+}
+
+.valores .valor i {
+  font-size: 45px;
+  color: #133157;
+  margin-bottom: 25px;
+}
+
+.valores .valor h4 {
+  margin-bottom: 10px;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.valores .valor p {
+  text-align: left;
+  font-weight: 300;
+  font-size: 15px;
+}
+
+.empleo {
+  padding: 60px 0px;
+}
+
+.empleo img {
+  width: 100%;
+}
+
+.empleo li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  font-size: 16px;
+}
+
+.empleo i {
+  margin-right: 10px;
+  font-size: 25px;
+}
+
+.empleo p {
+  font-size: 18px;
+}
+
+.empleo h3 {
+  font-weight: 600;
+  font-size: 22px;
+}
+
+.empleo a {
+  display: inline-block;
+  margin: 15px 0px;
+  padding: 10px 30px 10px 30px;
+  font-weight: 400;
+  border: none;
+  background: #133157;
+  font-size: 16px;
+  color: #fff;
+  border-radius: 6px;
 }
 
 .menu {
@@ -154,6 +247,10 @@ nav ul {
 .contacto {
   padding: 80px 0px;
   color: #2B2C2F;
+}
+
+.contacto p {
+  font-weight: 400;
 }
 
 .contacto h2 {
@@ -249,7 +346,7 @@ footer .text-subline {
 footer h4 {
   font-size: 18px;
   margin-bottom: 20px;
-  font-weight: 500;
+  font-weight: 600;
   color: #fff;
 }
 
@@ -287,7 +384,7 @@ footer li, footer a {
     margin: 15px 0px;
   }
   .info .mt3 {
-    margin-top: .90rem;
+    margin-top: 0.9rem;
   }
   .menu {
     display: block;
@@ -301,8 +398,8 @@ footer li, footer a {
   }
   .mostrar {
     right: 0%;
-    -webkit-transition: all .8s ease-in-out;
-    transition: all .8s ease-in-out;
+    -webkit-transition: all 0.8s ease-in-out;
+    transition: all 0.8s ease-in-out;
     background: #133157;
   }
   nav {
@@ -312,8 +409,8 @@ footer li, footer a {
     width: 100%;
     right: 100%;
     height: 50vh;
-    -webkit-transition: all .8s ease-in-out;
-    transition: all .8s ease-in-out;
+    -webkit-transition: all 0.8s ease-in-out;
+    transition: all 0.8s ease-in-out;
   }
   nav img {
     display: block;
@@ -355,6 +452,26 @@ footer li, footer a {
   }
 }
 
+@media screen and (max-width: 800px) {
+  .valores .wrapper {
+    -webkit-box-align: stretch;
+        -ms-flex-align: stretch;
+            align-items: stretch;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .valores .valor {
+    width: 500px;
+    margin-top: 30px;
+  }
+  .valores .valor p {
+    text-align: center;
+  }
+}
+
 @media screen and (max-width: 575px) {
   .contacto {
     padding-bottom: 40px;
@@ -372,7 +489,15 @@ footer li, footer a {
     margin: 0px 0px;
   }
   .marcas .col-sm-4 img {
-    width: 80%;
+    width: 90%;
+    margin-bottom: 15px;
+  }
+  .empleo img {
+    margin-top: 20px;
+  }
+  .empleo a {
+    text-align: center;
+    display: block;
   }
 }
 /*# sourceMappingURL=css.css.map */
