@@ -11,9 +11,15 @@
 
 @media screen and ( max-width: 767px){
 
-.contacto .dp-flex{
-    flex-direction: column-reverse;
-    }
+    .info{
+        margin-top: 50px;
+        .content-info{
+            margin: 15px 0px
+            }
+                .mt3{
+                    margin-top: .90rem;
+                    }
+        }
 
   .menu {
     display: block;
@@ -65,13 +71,57 @@
     text-align: center;
     padding: 15px 0px;
   }
+      footer{
+          .mtp{
+              margin: 15px auto;
+              }
+          }
+
+               .marcas {
+                .col-sm-4{
+                    width: 50%;
+                    text-align: center;
+                     img{
+                            width: 70%;
+                            }
+                    }
+
+                       
+                }
 
 }
 
 @media screen and ( max-width: 575px){
 
-    .contacto .btn {
+    .contacto {
+        padding-bottom: 40px;
+           .btn {
         width: 100%;
     }
+        }
+        
+     
+
+           .info{
+               margin-top: 40px;
+                .mt3{
+                    margin-top: 0rem;
+                    }
+        }
+
+          .info .content-info {
+    margin: 0px 0px;
+}
+
+            .marcas {
+                .col-sm-4{
+        
+                     img{
+                            width: 80%;
+                            }
+                    }
+
+                       
+                }
 
 }
