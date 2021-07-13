@@ -1,25 +1,22 @@
-@media screen and ( max-width: 1000px){
-
-    .wrapper{
-        width: 90%;
-    }
-         .form{
-        padding-right: 0px !important;
-        }
-
+@media screen and (max-width: 1000px) {
+  .wrapper {
+    width: 90%;
+  }
+  .form {
+    padding-right: 0px !important;
+  }
 }
 
-@media screen and ( max-width: 767px){
-
-    .info{
-        margin-top: 50px;
-        .content-info{
-            margin: 15px 0px
-            }
-                .mt3{
-                    margin-top: .90rem;
-                    }
-        }
+@media screen and (max-width: 767px) {
+  .info {
+    margin-top: 50px;
+    .content-info {
+      margin: 15px 0px;
+    }
+    .mt3 {
+      margin-top: 0.9rem;
+    }
+  }
 
   .menu {
     display: block;
@@ -29,22 +26,21 @@
   .menu i {
     display: block;
     padding: 4px;
-    font-size: 18px;  
+    font-size: 18px;
   }
   .mostrar {
     right: 0%;
-     transition: all .8s ease-in-out;
+    transition: all 0.8s ease-in-out;
     background: #133157;
   }
   nav {
-
     position: absolute;
     z-index: 1;
     top: 69px;
     width: 100%;
     right: 100%;
     height: 50vh;
-    transition: all .8s ease-in-out;
+    transition: all 0.8s ease-in-out;
   }
   nav img {
     display: block;
@@ -71,57 +67,125 @@
     text-align: center;
     padding: 15px 0px;
   }
-      footer{
-          .mtp{
-              margin: 15px auto;
-              }
-          }
-
-               .marcas {
-                .col-sm-4{
-                    width: 50%;
-                    text-align: center;
-                     img{
-                            width: 70%;
-                            }
-                    }
-
-                       
-                }
-
-}
-
-@media screen and ( max-width: 575px){
-
-    .contacto {
-        padding-bottom: 40px;
-           .btn {
-        width: 100%;
+  footer {
+    .mtp {
+      margin: 15px auto;
     }
-        }
-        
-     
+  }
 
-           .info{
-               margin-top: 40px;
-                .mt3{
-                    margin-top: 0rem;
-                    }
-        }
+  .marcas {
+p {
+    font-size: 15px;
+  }
+  .title {
+    h3 {
+  
+      font-size: 32px;
+  
+    }
+  }
 
-          .info .content-info {
-    margin: 0px 0px;
+    .col-sm-4 {
+      width: 50%;
+      text-align: center;
+      img {
+        width: 70%;
+      }
+    }
+  }
 }
 
-            .marcas {
-                .col-sm-4{
+@media screen and (max-width: 800px) {
+  .valores {
+    .wrapper {
+      align-items: stretch;
+      justify-content: space-evenly;
+      flex-wrap: wrap;
+    }
+
+    .valor {
+      width: 500px;
+      margin-top: 30px;
+      p {
+        text-align: center;
+      }
+    }
+  }
+
+    .productos-1{
+      .contenido {
+        display: block;
+
+        .img{
+         width: 100%;
+         text-align: center;
+         margin-bottom: 15px;
+          }
+        }
+
+          a{
+            display: block;
+            }
+      }
+
         
-                     img{
-                            width: 80%;
-                            }
-                    }
+.text-1 {
+  
+  padding: 50px 0px;
+  img {
+   width: 100%;
+  }
+    h3{
+      padding: 20px 0px;
+      }
+}
+}
 
-                       
+@media screen and (max-width: 575px) {
+  .contacto {
+    padding-bottom: 40px;
+    .btn {
+      width: 100%;
+    }
+  }
+
+  .info {
+    margin-top: 40px;
+    .mt3 {
+      margin-top: 0rem;
+    }
+  }
+
+  .info .content-info {
+    margin: 0px 0px;
+  }
+
+  .marcas {
+    .col-sm-4 {
+      img {
+        width: 90%;
+        margin-bottom: 15px;
+      }
+    }
+  }
+
+    .empleo {
+      img{
+            margin-top: 20px;
+            }
+
+              a{
+                text-align: center;
+                display: block;
                 }
+      }
 
+         .productos-1{
+    a{
+      width: 100%;
+      text-align: center;
+      }
+}
+
+   
 }

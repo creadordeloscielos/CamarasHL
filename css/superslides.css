@@ -1,0 +1,115 @@
+#slides {
+  position: relative;
+}
+#slides .slides-container {
+  display: none;
+}
+#slides .scrollable {
+  *zoom: 1;
+  position: relative;
+  top: 0;
+  left: 0;
+  overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
+  height: 100%;
+}
+#slides .scrollable:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.slides-navigation {
+  margin: 0 auto;
+  position: absolute;
+  z-index: 3;
+  top: 46%;
+  width: 100%;
+
+}
+.slides-navigation a {
+  position: absolute;
+  display: block;
+}
+.slides-navigation a.prev {
+  left: 0;
+}
+.slides-navigation a.next {
+  right: 0;
+}
+
+.slides-pagination {
+  position: absolute;
+  z-index: 3;
+  bottom: 0;
+  text-align: center;
+  width: 100%;
+}
+.slides-pagination a {
+  border: 2px solid #222;
+  border-radius: 50%;
+  width: 15px !important;
+  height: 15px !important;
+  display: -moz-inline-stack;
+  display: inline-block;
+  vertical-align: middle;
+  *vertical-align: auto;
+  zoom: 1;
+  *display: inline;
+  background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR4nGP6zwAAAgcBApocMXEAAAAASUVORK5CYII=");
+  margin: 2px;
+  overflow: hidden;
+  text-indent: -99999px;
+  text-align: center;
+
+}
+.slides-pagination a.current {
+  background: #222;
+}
+
+
+/*------------------------------------------------------------------
+                    MODIFICACION DE SLIDER
+-------------------------------------------------------------------*/
+
+
+.txt-slider {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+      justify-content: center;
+          align-items: center;
+  height: 100%;
+}
+
+.txt-slider h1 {
+  padding-bottom: 0 !important;
+  margin-bottom: 0 !important;
+  padding: 0;
+  color: #fff;
+  font-size: 50px;
+  font-weight: 700;
+}
+
+.txt-slider p {
+  color: #E6E6E6;
+  font-size: 16px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  padding: 5px 0px;
+}
+
+.txt-slider {
+  width: 100%;
+  max-width: 1250px;
+  margin: auto;
+}
+
+.txt-centro {
+  margin-top: 50px;
+  justify-content: flex-start;
+  font-size: 32px;
+  color: #133157;
+}
