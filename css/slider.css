@@ -105,13 +105,19 @@ ul.cart-list>li.total>.btn:hover {
 
 .slides-navigation a i {
     font-size: 25px;
-    background: #ff6e05;
     border-radius: 50%;
     padding: 7px 9px 7px 5px;
-    display: none;
+    color: red;
+    color: #0000004d;
+    font-size: 40px;
+    transition: all .6s ;
+  
 }
 
-.slides-navigation a:hover {}
+.slides-navigation a i:hover {
+    color: #ffffff9f;
+
+    }
 
 .cover-slides .container {
     height: 100%;
@@ -146,17 +152,25 @@ ul.cart-list>li.total>.btn:hover {
     margin: auto;
 }
 
+    .next{
+        margin-right: 30px;
+        }
+
+            .prev{
+                margin-left: 30px;
+                }
+
 /*------------------------------------------------------------------
                            BOTONES
 -------------------------------------------------------------------*/
 
 .slides-pagination a {
-    border: 1px solid #ffffff;
+    border: 1px solid #ff0000;
+    display: none;
 }
 
 .slides-pagination a.current {
     background: #f7941e;
-
     border: 1px solid #f7941e;
 }
 

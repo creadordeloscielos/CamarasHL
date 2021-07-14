@@ -24,6 +24,9 @@ p {
 a {
   text-decoration: none !important;
 }
+    h3 {
+    color: #1c80c3;
+}
 
    
 .wrapper {
@@ -219,6 +222,7 @@ a {
     font-size: 32px;
     font-family: "Roboto", sans-serif;
     margin-bottom: 60px;
+        color: #fff !important;
   }
   .title {
     h4 {
@@ -250,6 +254,7 @@ a {
     font-weight: 700;
     font-size: 38px;
     font-family: "Roboto", sans-serif;
+
 
   }
   .txt-1 p {
@@ -311,6 +316,7 @@ a {
       font-size: 22px;
       font-weight: 700;
       font-family: "Roboto", sans-serif;
+      
     }
     p {
       text-align: left;
@@ -386,9 +392,10 @@ a {
       font-family: "Roboto", sans-serif;
       margin: 10px;
       transition: all 0.5s;
+   
 
       &:hover {
-        color: #0963d8;
+     color: #1c80c3;
       }
     }
   }
