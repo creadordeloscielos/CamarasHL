@@ -35,11 +35,11 @@
   }
   nav {
     position: absolute;
-    z-index: 1;
-    top: 69px;
+    z-index: 999999;
+    top: 66px;
     width: 100%;
     right: 100%;
-    height: 50vh;
+    height: 100vh;
     transition: all 0.8s ease-in-out;
   }
   nav img {
@@ -57,16 +57,7 @@
     position: relative;
     z-index: 1;
   }
-  nav ul li:last-child {
-    width: 90%;
-  }
-  nav li:last-child a {
-    border: #fff 1px solid;
-    width: 100%;
-    margin-left: 0px;
-    text-align: center;
-    padding: 15px 0px;
-  }
+
   footer {
     .mtp {
       margin: 15px auto;
@@ -74,16 +65,14 @@
   }
 
   .marcas {
-p {
-    font-size: 15px;
-  }
-  .title {
-    h3 {
-  
-      font-size: 32px;
-  
+    p {
+      font-size: 15px;
     }
-  }
+    .title {
+      h3 {
+        font-size: 32px;
+      }
+    }
 
     .col-sm-4 {
       width: 50%;
@@ -93,6 +82,65 @@ p {
       }
     }
   }
+
+  .empleo {
+    img {
+      margin-top: 30px;
+    }
+
+    p {
+      font-size: 16px;
+    }
+
+    h3 {
+      font-size: 28px;
+    }
+  }
+
+  .txt-mb {
+    margin-top: 30px !important;
+  }
+
+  .txt-mb-1 {
+    margin-top: 0px !important;
+  }
+
+  .servicos-1 .title-1 h3 {
+    font-size: 30px;
+  }
+
+  .text-1 h3 {
+    font-size: 28px;
+  }
+
+  .productos-1 .wrapper .title2 h3 {
+    font-size: 28px;
+  }
+
+  .productos-1 h3 {
+    font-size: 22px;
+  }
+
+  .marcas .title h3 {
+    font-size: 28px;
+  }
+
+  .por-que-elegirnos .wrapper .title h3,
+  .por-que-elegirnos .wrapper p h3 {
+    font-size: 28px;
+  }
+
+  .text-1 {
+    padding: 0px;
+  }
+  .razones {
+    margin-top: 50px;
+     h3 {
+    font-size: 28px;
+  }
+    }
+    
+   
 }
 
 @media screen and (max-width: 800px) {
@@ -112,32 +160,35 @@ p {
     }
   }
 
-    .productos-1{
-      .contenido {
-        display: block;
+  .productos-1 {
+    .contenido {
+      display: block;
 
-        .img{
-         width: 100%;
-         text-align: center;
-         margin-bottom: 15px;
-          }
-        }
-
-          a{
-            display: block;
-            }
+      .img {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 15px;
+       margin-right: 0px;
       }
+    }
 
-        
-.text-1 {
-  
-  padding: 50px 0px;
-  img {
-   width: 100%;
+    a {
+      display: block;
+    }
   }
-    h3{
+
+  .text-1 {
+    img {
+      width: 100%;
+   
+    }
+    h3 {
       padding: 20px 0px;
-      }
+    }
+  }
+    .col-md-9, .col-md-3 {
+
+    max-width: 100%;
 }
 }
 
@@ -169,23 +220,21 @@ p {
     }
   }
 
-    .empleo {
-      img{
-            margin-top: 20px;
-            }
+  .empleo {
+    a {
+      text-align: center;
+      display: block;
+    }
+  }
 
-              a{
-                text-align: center;
-                display: block;
-                }
-      }
-
-         .productos-1{
-    a{
+  .productos-1 {
+    a {
       width: 100%;
       text-align: center;
-      }
-}
+    }
+  }
 
-   
+  .fbm {
+    font-size: 32px !important;
+  }
 }
