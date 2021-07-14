@@ -107,7 +107,7 @@ h3 {
 }
 
 .marcas {
-  padding: 60px 0px;
+  padding: 10px 0px;
 }
 
 .marcas p {
@@ -192,7 +192,8 @@ h3 {
 
 .empleo {
   padding: 60px 0px;
-  background: #00000012;
+  background-color: #f7f7f7;
+  border-color: #e4e4e4;
 }
 
 .empleo img {
@@ -395,8 +396,17 @@ h3 {
   float: right;
 }
 
+.text-1 li {
+  list-style: unset;
+  margin-left: 18px;
+}
+
 .productos {
   margin-top: 40px;
+}
+
+.productos img {
+  width: 50%;
 }
 
 .productos .title {
@@ -460,6 +470,16 @@ h3 {
 
 .productos-1 img {
   margin-right: 20px;
+  width: 100%;
+}
+
+.productos-1 .img-5 {
+  margin-right: 20px;
+  width: 260px;
+}
+
+.productos-1 .img-5 img {
+  width: 100%;
 }
 
 .productos-1 h3 {
@@ -485,6 +505,70 @@ h3 {
   float: left;
 }
 
+.servicos-2 .txt-mb {
+  margin-top: 60px;
+}
+
+.servicos-2 .txt-mb-1 {
+  margin-top: 60px;
+}
+
+.servicos-2 .title-1 h3 {
+  font-weight: 700;
+  font-size: 38px;
+  font-family: "Roboto", sans-serif;
+}
+
+.servicos-2 .txt-1 p {
+  font-size: 16px;
+  line-height: 1.8;
+}
+
+.servicos-2 img {
+  width: 100%;
+}
+
+.servicos-2 .contenido {
+  border: 1px solid #e8e8e8;
+  padding: 30px 20px;
+  margin: 20px 0px;
+}
+
+.servicos-2 .title h3 {
+  padding: 20px 0px;
+  border-bottom: 1px solid #e8e8e8;
+  font-weight: 700;
+  font-size: 20px;
+  font-family: "Roboto", sans-serif;
+}
+
+.servicos-2 p {
+  font-size: 16px;
+}
+
+.servicios {
+  padding: 40px 0px;
+  background: #005c8d;
+}
+
+.servicios p {
+  color: #ffffff;
+}
+
+.servicios h3 {
+  padding: 5px 0px;
+  font-weight: 700;
+  font-family: "Roboto", sans-serif;
+  color: #ffffff;
+  font-size: 25px;
+}
+
+.servicios .title h3 {
+  font-size: 40px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
 header {
   border-bottom: 6px solid #1c80c3;
 }
@@ -508,7 +592,7 @@ nav a {
   font-family: "Roboto", sans-serif;
   -webkit-transition: all .3s;
   transition: all .3s;
-  border-radius: 7px;
+  border-radius: 4px;
 }
 
 nav a:hover {
@@ -518,6 +602,22 @@ nav a:hover {
 
 nav ul {
   margin-bottom: 0px;
+}
+
+.ir-arriba {
+  font-size: 50px;
+  color: #1c80c363;
+  cursor: pointer;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  border-radius: 100%;
+  -webkit-transition: color all .5;
+  transition: color all .5;
+}
+
+.ir-arriba:hover {
+  color: #1c80c3;
 }
 
 .contacto {
@@ -666,6 +766,16 @@ footer li, footer a {
 }
 
 @media screen and (max-width: 767px) {
+  .dp-flex-reverse {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+    margin: 50px 0px;
+  }
   .info {
     margin-top: 50px;
   }
@@ -691,8 +801,14 @@ footer li, footer a {
   .marcas .col-sm-4 img {
     width: 70%;
   }
+  .empleo .row {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+  }
   .empleo img {
-    margin-top: 30px;
+    margin-bottom: 30px;
   }
   .empleo p {
     font-size: 16px;
@@ -728,11 +844,14 @@ footer li, footer a {
   .text-1 {
     padding: 0px;
   }
-  .razones {
-    margin-top: 50px;
-  }
   .razones h3 {
     font-size: 28px;
+  }
+  .por-que-elegirnos .row {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
   }
 }
 
@@ -821,6 +940,10 @@ footer li, footer a {
   .col-md-3 {
     max-width: 100%;
   }
+  .productos-1 img {
+    margin-right: 20px;
+    width: 50%;
+  }
 }
 
 @media screen and (max-width: 575px) {
@@ -862,6 +985,13 @@ footer li, footer a {
   }
   .banner {
     padding: 60px 0;
+  }
+  .text-1 a {
+    display: block;
+    text-align: center;
+  }
+  .text-1 h3 {
+    padding-bottom: 10px;
   }
 }
 /*# sourceMappingURL=css.css.map */

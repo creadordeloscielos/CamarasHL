@@ -24,11 +24,10 @@ p {
 a {
   text-decoration: none !important;
 }
-    h3 {
-    color: #1c80c3;
+h3 {
+  color: #1c80c3;
 }
 
-   
 .wrapper {
   width: 80%;
   max-width: 1450px;
@@ -51,6 +50,8 @@ a {
   align-items: flex-start;
   justify-content: space-evenly;
 }
+
+
 
 .text-subline {
   position: relative;
@@ -88,7 +89,8 @@ a {
 }
 
 .marcas {
-  padding: 60px 0px;
+  padding: 10px 0px;
+
   p {
     font-size: 19px;
     font-weight: 400;
@@ -167,8 +169,8 @@ a {
 
 .empleo {
   padding: 60px 0px;
-  background: #00000012;
-
+  background-color: #f7f7f7;
+  border-color: #e4e4e4;
   img {
     width: 100%;
   }
@@ -223,7 +225,7 @@ a {
     font-size: 32px;
     font-family: "Roboto", sans-serif;
     margin-bottom: 60px;
-        color: #fff !important;
+    color: #fff !important;
   }
   .title {
     h4 {
@@ -242,21 +244,18 @@ a {
 }
 
 .servicos-1 {
+  .txt-mb {
+    margin-top: 60px;
+  }
 
-.txt-mb{
-        margin-top: 60px;
-    }
-
-        .txt-mb-1{
-        margin-top: 60px;
-    }
+  .txt-mb-1 {
+    margin-top: 60px;
+  }
 
   .title-1 h3 {
     font-weight: 700;
     font-size: 38px;
     font-family: "Roboto", sans-serif;
-
-
   }
   .txt-1 p {
     font-size: 16px;
@@ -289,7 +288,7 @@ a {
 }
 
 .por-que-elegirnos {
-    padding: 50px 0px;
+  padding: 50px 0px;
   .wrapper {
     .txt {
       p {
@@ -317,7 +316,6 @@ a {
       font-size: 22px;
       font-weight: 700;
       font-family: "Roboto", sans-serif;
-      
     }
     p {
       text-align: left;
@@ -364,11 +362,19 @@ a {
   .float-left {
     float: right;
   }
+       li {
+    list-style: unset;
+    margin-left: 18px;
+  }
 }
 
 .productos {
   margin-top: 40px;
-  
+
+  img {
+    width: 50%;
+  }
+
   .title {
     text-align: center;
     p {
@@ -393,29 +399,27 @@ a {
       font-family: "Roboto", sans-serif;
       margin: 10px;
       transition: all 0.5s;
-   
 
       &:hover {
-     color: #1c80c3;
+        color: #1c80c3;
       }
     }
   }
 }
 
 .productos-1 {
-    margin-top: 30px; 
+  margin-top: 30px;
 
-    ul{
-         margin-left: 20px;
-        }
+  ul {
+    margin-left: 20px;
+  }
 
-    li {
-      list-style: disc;
-     
-      }
-    .contenido{
-        margin: 15px 0px; 
-        }
+  li {
+    list-style: disc;
+  }
+  .contenido {
+    margin: 15px 0px;
+  }
   .wrapper {
     .title2 {
       h3 {
@@ -424,27 +428,34 @@ a {
         font-family: "Roboto", sans-serif;
         text-align: center;
         margin-bottom: 20px;
-
       }
     }
   }
   img {
     margin-right: 20px;
+    width: 100%;
+  }
+
+  .img-5 {
+    margin-right: 20px;
+    width: 260px;
+    img {
+      width: 100%;
+    }
   }
 
   h3 {
     font-family: "Roboto", sans-serif;
     font-weight: 700;
     font-size: 28px;
-
   }
 
-      p{
-          font-size: 15px;
-          }
+  p {
+    font-size: 15px;
+  }
 
-              a{
-                     display: inline-block;
+  a {
+    display: inline-block;
     margin: 15px 0px;
     padding: 10px 30px 10px 30px;
     font-weight: 400;
@@ -453,6 +464,78 @@ a {
     font-size: 16px;
     color: #fff;
     border-radius: 6px;
-    float: left ;
-                  }
+    float: left;
+  }
+}
+
+.servicos-2 {
+  .txt-mb {
+    margin-top: 60px;
+  }
+
+  .txt-mb-1 {
+    margin-top: 60px;
+  }
+
+  .title-1 h3 {
+    font-weight: 700;
+    font-size: 38px;
+    font-family: "Roboto", sans-serif;
+  }
+  .txt-1 p {
+    font-size: 16px;
+
+    line-height: 1.8;
+  }
+  img {
+    width: 100%;
+  }
+
+  .contenido {
+    border: 1px solid #e8e8e8;
+    padding: 30px 20px;
+    margin: 20px 0px;
+  }
+
+  .title {
+    h3 {
+      padding: 20px 0px;
+      border-bottom: 1px solid #e8e8e8;
+      font-weight: 700;
+      font-size: 20px;
+      font-family: "Roboto", sans-serif;
+    }
+  }
+
+  p {
+    font-size: 16px;
+  }
+}
+
+.servicios {
+  padding: 40px 0px;
+  background: #005c8d;
+
+  p {
+    color: #ffffff;
+  }
+
+  h3 {
+    padding: 5px 0px;
+    font-weight: 700;
+    font-family: "Roboto", sans-serif;
+    color: #ffffff;
+
+    font-size: 25px;
+  }
+
+  .title {
+    h3 {
+      font-size: 40px;
+      text-align: center;
+      margin-bottom: 30px;
+    }
+  }
+
+ 
 }
